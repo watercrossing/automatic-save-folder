@@ -1,0 +1,178 @@
+﻿<!-- ASF Settings -->
+<!-- Change the preferences window size to fit your localization. Default values : resize=false width=617 height=423, in pixels-->
+<!ENTITY asf.preferences_window.resize "true">
+<!ENTITY asf.preferences_window.width "580">
+<!ENTITY asf.preferences_window.height "446">
+
+<!-- new line, U+00A0 ISOnum -->
+<!ENTITY NL "&#10;" >
+
+<!-- browser and save dialog-->
+<!ENTITY prefwindow.title "Automatic Save Folder Preferences">
+<!ENTITY asf.label "Automatic Save Folder...">
+<!ENTITY asf.addedit.label "Add or edit a filter">
+<!ENTITY asf.pathselect.label "Available filter's path:">
+
+<!-- Filters tab - top -->
+<!ENTITY asf.filters.label "Filters">
+<!ENTITY asf.tree.column.domain "Domain">
+<!ENTITY asf.tree.column.filename "File name">
+<!ENTITY asf.tree.column.localfolder "Local folder">
+<!ENTITY asf.tree.column.enabled "Active">
+<!-- this is 1 space (not empty string), this is the text you want to see on the buttons next to the arrows on the filter's tab, you can write 'up' if you want -->
+<!ENTITY asf.options.move.up " ">
+<!ENTITY asf.options.move.down " ">
+<!ENTITY asf.options.edit "Edit">
+<!ENTITY asf.options.delete " ">
+<!ENTITY asf.options.add " ">
+
+<!-- Filters tab - bottom -->
+<!ENTITY asf.default.label "If the file doesn't match any filter, save to:">
+<!ENTITY asf.lastselected.label "The last folder">
+<!ENTITY asf.useSiteBySiteSavePath.label "Memorize on a site-by-site basis.">
+<!ENTITY asf.defaultfolder.label "This folder: ">
+<!ENTITY asf.selectfolder.label "Select...">
+<!ENTITY asf.keeptemp.label "Use the last folder if the file is from the same hosted domain than the previously downloaded file.">
+
+<!-- popup -->
+<!ENTITY asf.top.popup "Move to Top">
+<!ENTITY asf.copy.popup "Duplicate">
+<!ENTITY asf.delete.popup "Delete">
+<!ENTITY asf.bottom.popup "Move to Bottom">
+
+<!-- Options tab -->
+<!ENTITY asf.options.label "Options">
+<!ENTITY asf.options.tab1.label "Page 1">
+<!ENTITY asf.options.tab2.label "Page 2">
+<!ENTITY asf.options.tabdta.label "DownThemAll!">
+<!ENTITY asf.options.tabdata.label "Data management">
+
+<!ENTITY asf.options.groupbox1.label "File Explorer">
+<!ENTITY asf.useDownloadDir.bool "Do not show the file explorer, and automatically save to:">
+<!ENTITY asf.desktop.label "Desktop">
+<!ENTITY asf.systemdownload.label "Downloads">
+<!ENTITY asf.filteredfolder.label "Set by the filters">
+<!ENTITY asf.folderList.tooltip "If the &quot;Downloads&quot; folder doesn't exist, the file explorer will be shown.">
+
+<!ENTITY asf.options.groupbox2.label "Save dialog">
+<!ENTITY asf.dialogaccept.bool "Automatically accept the &quot;What should Firefox do with this file?&quot; dialog windows.">
+<!ENTITY asf.dialogacceptFiltered.bool "Only if a filter is found">
+<!ENTITY asf.dialogacceptFiltered.tooltip "Will not automatically accept the &quot;What should Firefox do with this file?&quot; dialog windows if no filter matches.">
+<!ENTITY asf.dialogForceRadio_Start.bool "Force the radio choice to">
+<!ENTITY asf.dialogForceRadioTo.label1 "Open with">
+<!ENTITY asf.dialogForceRadioTo.label2 "DownThemAll!">
+<!ENTITY asf.dialogForceRadioTo.label3 "dTa OneClick!">
+<!ENTITY asf.dialogForceRadioTo.label4 "Save File">
+<!ENTITY asf.dialogForceRadio_End.bool "before automatically accepting the save dialog.">
+<!ENTITY asf.viewdloption.bool "View options when downloading">
+<!ENTITY asf.viewdloption.tooltip "Adds an information area on the saving dialog which allows you to select a different saving folders quickly. There is also a link available to open the preferences window and allows you to add a new filter or change the options for the current download.">
+<!ENTITY asf.viewdloptionType0.label "Always show">
+<!ENTITY asf.viewdloptionType1.label "Always minimize">
+<!ENTITY asf.viewdloptionType2.label "Minimize if disabled">
+<!ENTITY asf.viewdloptionType3.label "Hide if disabled">
+<!ENTITY asf.suggestAllPossibleFolders.bool "Suggest all possible folders">
+<!ENTITY asf.suggestAllPossibleFolders.tooltip "Adds a radio choice for each matching filter to select one of them quickly without using the drop-down list.">
+<!ENTITY asf.viewpathselect.bool "View the list of folders">
+<!ENTITY asf.viewpathselect.tooltip "Activate a drop-down menu with all the filter's path.">
+
+<!ENTITY asf.option.groupbox.checkUpdate.label "Beta update">
+<!ENTITY asf.checkBetaUpdate.button "Check for Beta Updates...">
+<!ENTITY asf.betaVersionAvailable.label "A new version is available:">
+<!ENTITY asf.betaVersionNotAvailable.label "No new version available.">
+<!ENTITY asf.autoCheckBetaUpdate.bool "Automatically check when opening the preferences window.">
+<!ENTITY asf.betaVersionUpdateNow.label "Update now">
+
+<!ENTITY asf.options.groupbox3.label "Filtering options">
+<!ENTITY asf.lastdir.bool "Affect the folder for the 'save as...' command when a filter matches">
+<!ENTITY asf.domainTestOrder.label1 "Choose the domain types to use, and their verification order, when filtering:">
+<!ENTITY asf.domainTestOrder.label2 "[Help]">
+<!ENTITY asf.domainTestOrder.tooltip1 "A comma separated number list to specify in which order the tests on the domain will be performed. Default value if the field is empty: 1,5">
+<!ENTITY asf.domainTestOrder.tooltip2 "File's domain">
+<!ENTITY asf.domainTestOrder.tooltip3 "File's URL">
+<!ENTITY asf.domainTestOrder.tooltip4 "File's URL + Filename">
+<!ENTITY asf.domainTestOrder.tooltip5 "Tab's domain (or the file's domain if no data is found)">
+<!ENTITY asf.domainTestOrder.tooltip6 "Tab's URL (or the file's URL if no data is found)">
+<!ENTITY asf.domainTestOrder.tooltip7 "For more informations, you can see to which values correspond each entry in the Error console when downloading a file.">
+<!ENTITY asf.regexp_caseinsensitive.bool "Filters are case insensitive.">
+
+<!ENTITY asf.options.groupbox4.label "Right-click">
+<!ENTITY asf.userightclick.bool "Use the filters on the menus">
+<!ENTITY asf.userightclick.tooltip "Enable the filters on the menus &quot;Save link as...&quot;, &quot;Save image as...&quot; and &quot;Save as... (Ctrl+S)&quot;">
+<!ENTITY asf.rightclicktimeout.bool "Remove the timing delay and activate the filtering on the right-click menu &quot;Save link as...&quot;">
+<!ENTITY asf.rightclicktimeout.tooltip1 "Removing the timing delay prevent Firefox to read the file's target name if it is from a redirection download, but allow Automatic Save Folder to work.">
+<!ENTITY asf.rightclicktimeout.tooltip2 "Temporarily disable this feature if you want Firefox to read the filename provided by the header (no filter available anymore).">
+<!ENTITY asf.rightclicktimeout.tooltip3 "Only download scripts with file redirection are affected.">
+<!ENTITY asf.rightclicktimeout.tooltip4 "Note: This option doesn't affect the menus &quot;Save image as...&quot; nor &quot;Save as... (Ctrl+S)&quot;.">
+<!ENTITY asf.rightclick.ff2.label "The Automatic Save Folder's right-click feature is not available on Firefox 2. If you want to use the filters on your downloads using the right-click menu &quot;Save link as&quot;, you should update your Firefox version to 3.0 minimum (recommended version 3.5 or more).">
+<!ENTITY asf.rightclick.DSort.label "Download sort extension has been detected. &NL;Automatic Save Folder's right-click feature will not work until you disable Download Sort in your Extension manager.">
+
+<!ENTITY asf.options.groupbox5.label "Graphical interface">
+<!ENTITY asf.pathlist_defaultforceontop.bool "On drop-down menus, shows the default save path first.">
+<!ENTITY asf.pathlist_alphasort.bool "Sort save paths list alphabetically.">
+<!ENTITY asf.rowmatchinghighlight.label "Highlight color when selecting a matching filter:">
+<!ENTITY asf.rowmatchinghighlight.color "ASF color">
+<!ENTITY asf.rowmatchinghighlight.system "System color">
+
+<!ENTITY asf.options.groupbox6.label "DownThemAll!">
+<!ENTITY asf.options.dtaDetected.label "Automatic Save Folder has detected that you are using DownThemAll! add-on.&NL;Automatic Save Folder can send the filtered destination path to DownThemAll! when using the &quot;What should firefox do with this file&quot; saving window.&NL;&NL;Note: This option is disabled when using the Private Browsing mode.">
+<!ENTITY asf.dta_ASFtoDTA_isActive.bool "Enable Automatic Save Folder to send the filtered path to DownThemAll!.">
+<!ENTITY asf.dta_chooseSendingMethod.label "Choose the sending method for DTA OneClick!:">
+<!ENTITY asf.dta_methodReplace.label "Replace first folder in list">
+<!ENTITY asf.dta_methodAdd.label "Add to list">
+
+<!ENTITY asf.options.groupbox.datamanagement.label "Data management">
+<!ENTITY asf.export.notemp.bool "Do not import temporary data, like the last domain you downloaded from or the last saved path.">
+<!ENTITY asf.export.forceimport.bool "Force the import process even if the version is not compatible. Attention: To prevent data loss, export and keep your actual data before forcing the import.">
+<!ENTITY asf.export.infonotsaved.label "Note: These two options are not memorized to prevent import error.">
+<!ENTITY asf.export.button.label "Settings">
+<!ENTITY asf.export.button.export.label "Export">
+<!ENTITY asf.export.button.import.label "Import">
+<!ENTITY asf.export.button.importall.label "Import all data">
+<!ENTITY asf.export.button.importprefs.label "Import only preferences">
+<!ENTITY asf.export.button.importfilters.label "Import only filters">
+<!ENTITY asf.export.button.recoverfilters.label "Recover unused filters from database">
+<!ENTITY asf.export.button.delete.label "Delete">
+<!ENTITY asf.export.button.deleteallfilters.label "Delete all filters">
+<!ENTITY asf.export.button.deleteunusedfilters.label "Delete unused filters from database">
+<!ENTITY asf.export.button.deleteuserprefs.label "Restore preferences to default values">
+<!ENTITY asf.export.defaultfolder.label "Default folder for exported data (optional):">
+<!ENTITY asf.export.showbutton.bool "Add a data management button on the filter's tab.">
+
+<!-- Dynamics tab-->
+<!ENTITY asf.dynamics.label "Dynamic folders">
+<!ENTITY asf.variablemode.bool "Enable">
+<!ENTITY asf.variablemode.tooltip1 "Allow you to edit the filters saving path manually and add dynamic variables, like the date of the day or the file name.">
+<!ENTITY asf.variablemode.tooltip2 "Attention: If you are in private browsing mode, Firefox will not create the folder if it doesn't exist yet. The suggested folder will be the last used in non private browsing.">
+<!ENTITY asf.variablemode.label "Attention : Uppercase and lowercase tags are different.">
+<!ENTITY asf.variables.label "Tags list :">
+
+<!-- help tab-->
+<!ENTITY asf.help.label "  Help  ">
+<!ENTITY asf.help.title "Help">
+
+<!-- About tab-->
+<!ENTITY asf.about.label "About...">
+<!ENTITY asf.about.title "About Automatic Save Folder">
+
+<!-- preference add & edit-->
+<!ENTITY buttonlabelextra1 "OK">
+<!ENTITY asf.add.title "Add a new filter">
+<!ENTITY asf.edit.title "Edit a filter">
+<!ENTITY asf.addedit.filter.label "Filters">
+<!ENTITY asf.addedit.help.label "Help">
+<!ENTITY asf.addedit.domain.label "Domain">
+<!ENTITY asf.addedit.filename.label "file name">
+<!ENTITY asf.addedit.folder.label "Local Folder">
+<!ENTITY asf.addedit.regexp "Regexp">
+<!ENTITY asf.addedit.all "All">
+<!ENTITY asf.addedit.regexp.exemple "Examples of regular expressions : ">
+<!ENTITY asf.addedit.regexphelp.label "Regexp help">
+
+<!ENTITY asf.addedit.inforegexp1 "The filters can be :">
+<!ENTITY asf.addedit.inforegexp2 "Defined : file_to_download.zip">
+<!ENTITY asf.addedit.inforegexp3 "Partial or wildcarded : file*.zip">
+<!ENTITY asf.addedit.inforegexp4 "Regexp. : .*(.rar|.zip)$">
+
+<!-- Regular expression Help dialog -->
+<!ENTITY asf.regexp.title "Regular Expressions">
+<!ENTITY asf.regexp.label "Help and examples">

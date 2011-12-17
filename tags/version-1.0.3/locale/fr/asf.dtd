@@ -1,0 +1,178 @@
+﻿<!-- ASF Settings -->
+<!-- Change the preferences window size to fit your localization. Default values : resize=false width=617 height=423, in pixels-->
+<!ENTITY asf.preferences_window.resize "true">
+<!ENTITY asf.preferences_window.width "647">
+<!ENTITY asf.preferences_window.height "446">
+
+<!-- new line, U+00A0 ISOnum -->
+<!ENTITY NL "&#10;" >
+
+<!-- browser and save dialog-->
+<!ENTITY prefwindow.title "Préférences pour Automatic Save Folder">
+<!ENTITY asf.label "Automatic Save Folder...">
+<!ENTITY asf.addedit.label "Ajouter ou éditer un filtre">
+<!ENTITY asf.pathselect.label "Liste des filtres :">
+
+<!-- Filters tab - top -->
+<!ENTITY asf.filters.label "Filtres">
+<!ENTITY asf.tree.column.domain "Domaine">
+<!ENTITY asf.tree.column.filename "Nom de fichier">
+<!ENTITY asf.tree.column.localfolder "Dossier local">
+<!ENTITY asf.tree.column.enabled "Actif">
+<!-- this is 1 space (not empty string), this is the text you want to see on the buttons next to the arrows on the filter's tab, you can write 'up' if you want -->
+<!ENTITY asf.options.move.up " ">
+<!ENTITY asf.options.move.down " ">
+<!ENTITY asf.options.edit "Éditer">
+<!ENTITY asf.options.delete " ">
+<!ENTITY asf.options.add " ">
+
+<!-- Filters tab - bottom -->
+<!ENTITY asf.default.label "Dossier d'enregistrement lorsqu'aucun filtre n'est trouvé :">
+<!ENTITY asf.lastselected.label "Le dernier dossier utilisé">
+<!ENTITY asf.useSiteBySiteSavePath.label "Mémoriser site par site.">
+<!ENTITY asf.defaultfolder.label "Ce dossier : ">
+<!ENTITY asf.selectfolder.label "Sélectionner...">
+<!ENTITY asf.keeptemp.label "Utiliser le dernier dossier si le téléchargement provient du même domaine d'hébergement que le précédent fichier.">
+
+<!-- popup -->
+<!ENTITY asf.top.popup "Déplacer au début">
+<!ENTITY asf.copy.popup "Dupliquer">
+<!ENTITY asf.delete.popup "Supprimer">
+<!ENTITY asf.bottom.popup "Déplacer à la fin">
+
+<!-- Options tab -->
+<!ENTITY asf.options.label "Options">
+<!ENTITY asf.options.tab1.label "Page 1">
+<!ENTITY asf.options.tab2.label "Page 2">
+<!ENTITY asf.options.tabdta.label "DownThemAll!">
+<!ENTITY asf.options.tabdata.label "Gestion des données">
+
+<!ENTITY asf.options.groupbox1.label "Explorateur de fichiers">
+<!ENTITY asf.useDownloadDir.bool "Ne pas afficher l'explorateur de fichiers, et enregistrer directement dans le dossier :">
+<!ENTITY asf.desktop.label "Bureau">
+<!ENTITY asf.systemdownload.label "Téléchargements">
+<!ENTITY asf.filteredfolder.label "Défini par les filtres">
+<!ENTITY asf.folderList.tooltip "Si le dossier &quot;Téléchargements&quot; n'existe pas, l'explorateur de fichier s'affichera.">
+
+<!ENTITY asf.options.groupbox2.label "Fenêtre de sauvegarde">
+<!ENTITY asf.dialogaccept.bool "Valider automatiquement la fenêtre &quot;Que doit faire Firefox avec ce fichier ?&quot;.">
+<!ENTITY asf.dialogacceptFiltered.bool "Seulement si un filtre est trouvé">
+<!ENTITY asf.dialogacceptFiltered.tooltip "Ne valide pas automatiquement la fenêtre &quot;Que doit faire Firefox avec ce fichier ?&quot; si aucun filtre ne correspond.">
+<!ENTITY asf.dialogForceRadio_Start.bool "Forcer le choix sur">
+<!ENTITY asf.dialogForceRadioTo.label1 "Ouvrir avec">
+<!ENTITY asf.dialogForceRadioTo.label2 "DownThemAll!">
+<!ENTITY asf.dialogForceRadioTo.label3 "dTa OneClick!">
+<!ENTITY asf.dialogForceRadioTo.label4 "Enregistrer le fichier">
+<!ENTITY asf.dialogForceRadio_End.bool "avant de valider automatiquement la fenêtre d'enregistrement.">
+<!ENTITY asf.viewdloption.bool "Afficher les options lors de l'enregistrement">
+<!ENTITY asf.viewdloption.tooltip "Permet de voir les deux derniers dossiers d'enregistrement et un lien pour éditer ou ajouter de nouveaux filtres.">
+<!ENTITY asf.viewdloptionType0.label "Toujours afficher">
+<!ENTITY asf.viewdloptionType1.label "Toujours réduire">
+<!ENTITY asf.viewdloptionType2.label "Réduire si désactivé">
+<!ENTITY asf.viewdloptionType3.label "Masquer si désactivé">
+<!ENTITY asf.suggestAllPossibleFolders.bool "Suggérer tous les dossiers possibles.">
+<!ENTITY asf.suggestAllPossibleFolders.tooltip "Ajoute un élement radio pour chaque filtre trouvé afin d'en selectionner un rapidement sans passer par le menu déroulant.">
+<!ENTITY asf.viewpathselect.bool "Afficher la liste des filtres">
+<!ENTITY asf.viewpathselect.tooltip "Active le menu déroulant contenant le chemin de chaque filtre.">
+
+<!ENTITY asf.option.groupbox.checkUpdate.label "Mise à jour béta">
+<!ENTITY asf.checkBetaUpdate.button "Rechercher des mises à jour béta...">
+<!ENTITY asf.betaVersionAvailable.label "Une nouvelle version est disponible :">
+<!ENTITY asf.betaVersionNotAvailable.label "Pas de nouvelle version disponible.">
+<!ENTITY asf.autoCheckBetaUpdate.bool "Vérifier automatiquement à l'ouverture des préférences.">
+<!ENTITY asf.betaVersionUpdateNow.label "Mettre à jour maintenant">
+
+<!ENTITY asf.options.groupbox3.label "Pendant le filtrage">
+<!ENTITY asf.lastdir.bool "Modifier aussi le dossier d'enregistrement utilisé par le menu 'Enregistrer sous... (Ctrl+S)'">
+<!ENTITY asf.domainTestOrder.label1 "Choisissez le type de domaine à utiliser, ainsi que leur ordre de vérification, lors du filtrage :">
+<!ENTITY asf.domainTestOrder.label2 "[Aide]">
+<!ENTITY asf.domainTestOrder.tooltip1 "Spécifiez l'ordre dans lequel les tests sur le domaine seront effectués, en les séparant par une virgule. Valeur par défaut si la case est vide : 1,5">
+<!ENTITY asf.domainTestOrder.tooltip2 "Domaine du fichier">
+<!ENTITY asf.domainTestOrder.tooltip3 "URL du fichier">
+<!ENTITY asf.domainTestOrder.tooltip4 "URL du fichier + nom du fichier">
+<!ENTITY asf.domainTestOrder.tooltip5 "Domaine de l'onglet (ou le domaine du fichier si aucun résultat n'est trouvé)">
+<!ENTITY asf.domainTestOrder.tooltip6 "URL de l'onglet (ou l'URL du fichier si aucun résultat n'est trouvé)">
+<!ENTITY asf.domainTestOrder.tooltip7 "Pour plus de précisions, vous pouvez voir à quoi correspondent ces informations dans la Console d'erreurs lorsque vous téléchargez un fichier.">
+<!ENTITY asf.regexp_caseinsensitive.bool "Les filtres sont insensibles à la casse.">
+
+<!ENTITY asf.options.groupbox4.label "Clic droit">
+<!ENTITY asf.userightclick.bool "Activer les filtres sur les menus">
+<!ENTITY asf.userightclick.tooltip "Active le filtrage sur les menus &quot;Enregistrer la cible du lien sous...&quot;, &quot;Enregistrer l'image sous...&quot; et &quot;Enregistrer sous... (Ctrl+S)&quot;">
+<!ENTITY asf.rightclicktimeout.bool "Supprimer la temporisation et activer les filtres sur le menu clic-droit &quot;Enregistrer la cible du lien sous...&quot;.">
+<!ENTITY asf.rightclicktimeout.tooltip1 "Supprimer la temporisation empêche Firefox de lire le nom du fichier cible lors d'un téléchargement avec redirection, mais permet à Automatic Save Folder de fonctionner.">
+<!ENTITY asf.rightclicktimeout.tooltip2 "Désactivez temporairement cette option si vous souhaitez que Firefox lise correctement le nom du fichier fourni par l'entête (plus de filtrage possible).">
+<!ENTITY asf.rightclicktimeout.tooltip3 "Seuls les scripts de téléchargement avec redirection de fichier sont concernés.">
+<!ENTITY asf.rightclicktimeout.tooltip4 "Note : Cette option n'a pas d'effet sur les menus &quot;Enregistrer l'image sous...&quot; ni &quot;Enregistrer sous... (Ctrl+S)&quot;.">
+<!ENTITY asf.rightclick.ff2.label "La fonction clic-droit d'automatic save folder n'est pas compatible avec Firefox 2. Si vous souhaitez utiliser les filtres sur les téléchargements en utilisant le menu clic-droit &quot;Enregistrer la cible du lien sous...&quot;, vous devrez utiliser au minimum Firefox version 3.0 (Version 3.5 ou plus conseillée).">
+<!ENTITY asf.rightclick.DSort.label "L'extension Download Sort à été détectée. &NL;La fonction clic-droit d'Automatic Save Folder est temporairement indisponible. Désactivez l'extension Download Sort dans le menu &quot;Outils/Modules complémentaires...&quot; afin de pouvoir utiliser le clic-droit avec Automatic Save Folder.">
+
+<!ENTITY asf.options.groupbox5.label "Interface graphique">
+<!ENTITY asf.pathlist_defaultforceontop.bool "Dans les menus déroulants, afficher en premier le chemin d'enregistrement par défaut.">
+<!ENTITY asf.pathlist_alphasort.bool "Trier la liste des chemins d'enregistrement par ordre alphabétique.">
+<!ENTITY asf.rowmatchinghighlight.label "Couleur de surbrillance lors de la séléction d'un filtre valide :">
+<!ENTITY asf.rowmatchinghighlight.color "Couleur d'ASF">
+<!ENTITY asf.rowmatchinghighlight.system "Couleur système">
+
+<!ENTITY asf.options.groupbox6.label "DownThemAll!">
+<!ENTITY asf.options.dtaDetected.label "Automatic Save Folder a détecté que vous utilisez l'extension DownThemAll!.&NL;Automatic Save Folder peut envoyer le dossier de destination filtré à DownThemAll! lorsque vous utilisez la fenêtre de sauvegarde &quot;Que doit faire Firefox avec ce fichier ?&quot;.&NL;&NL;Note : Cette option est désactivée lorsque vous utilisez le mode Navigation Privée.">
+<!ENTITY asf.dta_ASFtoDTA_isActive.bool "Activer l'envoi du dossier filtré par Automatic Save Folder à DownThemAll!.">
+<!ENTITY asf.dta_chooseSendingMethod.label "Choix de la méthode d'envoi pour DTA OneClick!:">
+<!ENTITY asf.dta_methodReplace.label "Remplacer le premier dossier de la liste">
+<!ENTITY asf.dta_methodAdd.label "Ajouter à la liste">
+
+<!ENTITY asf.options.groupbox.datamanagement.label "Gestion des données">
+<!ENTITY asf.export.notemp.bool "Ne pas importer les données temporaires, comme le dernier domaine de provenance ou le dernier chemin d'enregistrement.">
+<!ENTITY asf.export.forceimport.bool "Forcer l'importation même si la version n'est pas compatible. Attention : Exportez et conservez d'abord vos données actuelles par sécurité.">
+<!ENTITY asf.export.infonotsaved.label "Note : Ces deux options ne sont pas mémorisées pour éviter des erreurs d'importation.">
+<!ENTITY asf.export.button.label "Données">
+<!ENTITY asf.export.button.export.label "Exporter">
+<!ENTITY asf.export.button.import.label "Importer">
+<!ENTITY asf.export.button.importall.label "Importer toutes les données">
+<!ENTITY asf.export.button.importprefs.label "Importer seulement les préférences">
+<!ENTITY asf.export.button.importfilters.label "Importer seulement les filtres">
+<!ENTITY asf.export.button.recoverfilters.label "Récupérer les filtres inutilisés dans la base de données">
+<!ENTITY asf.export.button.delete.label "Effacer">
+<!ENTITY asf.export.button.deleteallfilters.label "Effacer tous les filtres">
+<!ENTITY asf.export.button.deleteunusedfilters.label "Effacer les filtres inutilisés de la base de données">
+<!ENTITY asf.export.button.deleteuserprefs.label "Restaurer les préférences par défauts">
+<!ENTITY asf.export.defaultfolder.label "Dossier par défaut pour les données exportées (facultatif) :">
+<!ENTITY asf.export.showbutton.bool "Ajouter un boutton de gestion des données sur l'onglet des filtres.">
+
+<!-- Dynamics tab-->
+<!ENTITY asf.dynamics.label "Dossiers dynamiques">
+<!ENTITY asf.variablemode.bool "Activer">
+<!ENTITY asf.variablemode.tooltip1 "Permet d'éditer manuellement le chemin d'enregistrement des filtres et d'ajouter des variables dynamiques, comme la date du jour ou le domaine d'hébergement.">
+<!ENTITY asf.variablemode.tooltip2 "Attention : Lorsque vous utilisez la navigation privée, Firefox ne vous proposera pas les dossiers inexistant. Le dernier dossier utilisé en mode non privé sera proposé à la place.">
+<!ENTITY asf.variablemode.label "Attention : Les majuscules et les minuscules correspondent à des balises différentes.">
+<!ENTITY asf.variables.label "Liste des balises :">
+
+<!-- Help tab-->
+<!ENTITY asf.help.label "  Aide  ">
+<!ENTITY asf.help.title "Aide">
+
+<!-- About tab-->
+<!ENTITY asf.about.label "À propos...">
+<!ENTITY asf.about.title "À propos d'Automatic Save Folder">
+
+<!-- preference add & edit-->
+<!ENTITY buttonlabelextra1 "OK">
+<!ENTITY asf.add.title "Ajouter un nouveau filtre">
+<!ENTITY asf.edit.title "Éditer un filtre">
+<!ENTITY asf.addedit.filter.label "Filtres">
+<!ENTITY asf.addedit.help.label "Aide">
+<!ENTITY asf.addedit.domain.label "Domaine">
+<!ENTITY asf.addedit.filename.label "Nom de fichier">
+<!ENTITY asf.addedit.folder.label "Dossier local">
+<!ENTITY asf.addedit.regexp "Regexp">
+<!ENTITY asf.addedit.all "Tous">
+<!ENTITY asf.addedit.regexp.exemple "Exemples d'expressions régulières : ">
+<!ENTITY asf.addedit.regexphelp.label "Aide pour les Regexp.">
+
+<!ENTITY asf.addedit.inforegexp1 "Les filtres peuvent être :">
+<!ENTITY asf.addedit.inforegexp2 "Définis : fichier_à_télécharger.zip">
+<!ENTITY asf.addedit.inforegexp3 "Partiels : fichier*.zip">
+<!ENTITY asf.addedit.inforegexp4 "Expression régulière : .*(.rar|.zip)$">
+
+<!-- Regular expression Help dialog -->
+<!ENTITY asf.regexp.title "Expressions Régulières">
+<!ENTITY asf.regexp.label "Aide et exemples">
